@@ -23,6 +23,7 @@
 		B5113F0727DAB6FA00E1B271 /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5113F0627DAB6FA00E1B271 /* KingfisherSwiftUI */; };
 		B5113F0927DAB6FA00E1B271 /* KingfisherSwiftUIDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = B5113F0827DAB6FA00E1B271 /* KingfisherSwiftUIDynamic */; };
 		B5113F0B27DAB6FA00E1B271 /* KingfisherSwiftUIStatic in Frameworks */ = {isa = PBXBuildFile; productRef = B5113F0A27DAB6FA00E1B271 /* KingfisherSwiftUIStatic */; };
+		B5113F0D27DAB77600E1B271 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5113F0C27DAB77600E1B271 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		B5113EE627DAB50B00E1B271 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5113EE827DAB50C00E1B271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5113EEB27DAB50C00E1B271 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5113F0C27DAB77600E1B271 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				B5113EE427DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift */,
 				B5113EE627DAB50B00E1B271 /* ContentView.swift */,
 				B5113EE827DAB50C00E1B271 /* Assets.xcassets */,
+				B5113F0C27DAB77600E1B271 /* GoogleService-Info.plist */,
 				B5113EEA27DAB50C00E1B271 /* Preview Content */,
 			);
 			path = "TwitterClone-MVVM-SwiftUI";
@@ -169,6 +172,7 @@
 			files = (
 				B5113EEC27DAB50C00E1B271 /* Preview Assets.xcassets in Resources */,
 				B5113EE927DAB50C00E1B271 /* Assets.xcassets in Resources */,
+				B5113F0D27DAB77600E1B271 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
