@@ -77,6 +77,11 @@
 		B5113EE327DAB50B00E1B271 /* TwitterClone-MVVM-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B5113F0E27DAB86B00E1B271 /* Model */,
+				B5113F0F27DAB87200E1B271 /* View */,
+				B5113F1027DAB87600E1B271 /* ViewModels */,
+				B5113F1127DAB87D00E1B271 /* Utils */,
+				B5113F1227DAB88200E1B271 /* API */,
 				B5113EE427DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift */,
 				B5113EE627DAB50B00E1B271 /* ContentView.swift */,
 				B5113EE827DAB50C00E1B271 /* Assets.xcassets */,
@@ -92,6 +97,41 @@
 				B5113EEB27DAB50C00E1B271 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5113F0E27DAB86B00E1B271 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5113F0F27DAB87200E1B271 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5113F1027DAB87600E1B271 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B5113F1127DAB87D00E1B271 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B5113F1227DAB88200E1B271 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
