@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B504105C27E55B880034AF5F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504105B27E55B880034AF5F /* Message.swift */; };
 		B504105E27E55BA00034AF5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B504105D27E55B9F0034AF5F /* GoogleService-Info.plist */; };
+		B504106027E55E9C0034AF5F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504105F27E55E9C0034AF5F /* User.swift */; };
 		B5113EE527DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5113EE427DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift */; };
 		B5113EE727DAB50B00E1B271 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5113EE627DAB50B00E1B271 /* ContentView.swift */; };
 		B5113EE927DAB50C00E1B271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5113EE827DAB50C00E1B271 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		B504105B27E55B880034AF5F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		B504105D27E55B9F0034AF5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B504105F27E55E9C0034AF5F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B5113EE127DAB50B00E1B271 /* TwitterClone-MVVM-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TwitterClone-MVVM-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5113EE427DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterClone_MVVM_SwiftUIApp.swift; sourceTree = "<group>"; };
 		B5113EE627DAB50B00E1B271 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				B504105B27E55B880034AF5F /* Message.swift */,
+				B504105F27E55E9C0034AF5F /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B504106027E55E9C0034AF5F /* User.swift in Sources */,
 				B504105C27E55B880034AF5F /* Message.swift in Sources */,
 				B5113EE727DAB50B00E1B271 /* ContentView.swift in Sources */,
 				B5113EE527DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift in Sources */,
