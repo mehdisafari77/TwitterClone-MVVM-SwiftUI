@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B504105C27E55B880034AF5F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504105B27E55B880034AF5F /* Message.swift */; };
+		B504105E27E55BA00034AF5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B504105D27E55B9F0034AF5F /* GoogleService-Info.plist */; };
 		B5113EE527DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5113EE427DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift */; };
 		B5113EE727DAB50B00E1B271 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5113EE627DAB50B00E1B271 /* ContentView.swift */; };
 		B5113EE927DAB50C00E1B271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5113EE827DAB50C00E1B271 /* Assets.xcassets */; };
@@ -24,17 +25,16 @@
 		B5113F0727DAB6FA00E1B271 /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5113F0627DAB6FA00E1B271 /* KingfisherSwiftUI */; };
 		B5113F0927DAB6FA00E1B271 /* KingfisherSwiftUIDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = B5113F0827DAB6FA00E1B271 /* KingfisherSwiftUIDynamic */; };
 		B5113F0B27DAB6FA00E1B271 /* KingfisherSwiftUIStatic in Frameworks */ = {isa = PBXBuildFile; productRef = B5113F0A27DAB6FA00E1B271 /* KingfisherSwiftUIStatic */; };
-		B5113F0D27DAB77600E1B271 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5113F0C27DAB77600E1B271 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B504105B27E55B880034AF5F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		B504105D27E55B9F0034AF5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B5113EE127DAB50B00E1B271 /* TwitterClone-MVVM-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TwitterClone-MVVM-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5113EE427DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterClone_MVVM_SwiftUIApp.swift; sourceTree = "<group>"; };
 		B5113EE627DAB50B00E1B271 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5113EE827DAB50C00E1B271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5113EEB27DAB50C00E1B271 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B5113F0C27DAB77600E1B271 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 				B5113EE427DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift */,
 				B5113EE627DAB50B00E1B271 /* ContentView.swift */,
 				B5113EE827DAB50C00E1B271 /* Assets.xcassets */,
-				B5113F0C27DAB77600E1B271 /* GoogleService-Info.plist */,
+				B504105D27E55B9F0034AF5F /* GoogleService-Info.plist */,
 				B5113EEA27DAB50C00E1B271 /* Preview Content */,
 			);
 			path = "TwitterClone-MVVM-SwiftUI";
@@ -214,8 +214,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5113EEC27DAB50C00E1B271 /* Preview Assets.xcassets in Resources */,
+				B504105E27E55BA00034AF5F /* GoogleService-Info.plist in Resources */,
 				B5113EE927DAB50C00E1B271 /* Assets.xcassets in Resources */,
-				B5113F0D27DAB77600E1B271 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
