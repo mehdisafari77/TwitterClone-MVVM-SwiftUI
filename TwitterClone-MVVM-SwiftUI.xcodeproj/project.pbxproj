@@ -10,6 +10,7 @@
 		B504105C27E55B880034AF5F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504105B27E55B880034AF5F /* Message.swift */; };
 		B504105E27E55BA00034AF5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B504105D27E55B9F0034AF5F /* GoogleService-Info.plist */; };
 		B504106027E55E9C0034AF5F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504105F27E55E9C0034AF5F /* User.swift */; };
+		B504106227E560050034AF5F /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504106127E560050034AF5F /* Tweet.swift */; };
 		B5113EE527DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5113EE427DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift */; };
 		B5113EE727DAB50B00E1B271 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5113EE627DAB50B00E1B271 /* ContentView.swift */; };
 		B5113EE927DAB50C00E1B271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5113EE827DAB50C00E1B271 /* Assets.xcassets */; };
@@ -26,17 +27,20 @@
 		B5113F0727DAB6FA00E1B271 /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5113F0627DAB6FA00E1B271 /* KingfisherSwiftUI */; };
 		B5113F0927DAB6FA00E1B271 /* KingfisherSwiftUIDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = B5113F0827DAB6FA00E1B271 /* KingfisherSwiftUIDynamic */; };
 		B5113F0B27DAB6FA00E1B271 /* KingfisherSwiftUIStatic in Frameworks */ = {isa = PBXBuildFile; productRef = B5113F0A27DAB6FA00E1B271 /* KingfisherSwiftUIStatic */; };
+		B536098227E64986008A7050 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = B536098127E64986008A7050 /* Notification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B504105B27E55B880034AF5F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		B504105D27E55B9F0034AF5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B504105F27E55E9C0034AF5F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B504106127E560050034AF5F /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		B5113EE127DAB50B00E1B271 /* TwitterClone-MVVM-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TwitterClone-MVVM-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5113EE427DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterClone_MVVM_SwiftUIApp.swift; sourceTree = "<group>"; };
 		B5113EE627DAB50B00E1B271 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5113EE827DAB50C00E1B271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5113EEB27DAB50C00E1B271 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B536098127E64986008A7050 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 			children = (
 				B504105B27E55B880034AF5F /* Message.swift */,
 				B504105F27E55E9C0034AF5F /* User.swift */,
+				B504106127E560050034AF5F /* Tweet.swift */,
+				B536098127E64986008A7050 /* Notification.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -230,6 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B504106027E55E9C0034AF5F /* User.swift in Sources */,
+				B504106227E560050034AF5F /* Tweet.swift in Sources */,
+				B536098227E64986008A7050 /* Notification.swift in Sources */,
 				B504105C27E55B880034AF5F /* Message.swift in Sources */,
 				B5113EE727DAB50B00E1B271 /* ContentView.swift in Sources */,
 				B5113EE527DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift in Sources */,
