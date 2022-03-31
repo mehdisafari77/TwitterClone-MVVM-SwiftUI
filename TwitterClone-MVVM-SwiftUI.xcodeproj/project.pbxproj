@@ -125,6 +125,15 @@
 		B5113F0F27DAB87200E1B271 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B54525BA27F535FF0027F64D /* Messages */,
+				B54525B927F535FB0027F64D /* Profile */,
+				B54525B827F535F60027F64D /* Tweets */,
+				B54525B727F535F00027F64D /* Authentication */,
+				B54525B627F535EA0027F64D /* Search */,
+				B54525B527F535E60027F64D /* Feed */,
+				B54525B427F535E30027F64D /* Main */,
+				B54525B327F535DC0027F64D /* Notifications */,
+				B54525B227F535CC0027F64D /* SideMenu */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -158,6 +167,69 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		B54525B227F535CC0027F64D /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		B54525B327F535DC0027F64D /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		B54525B427F535E30027F64D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B54525B527F535E60027F64D /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		B54525B627F535EA0027F64D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		B54525B727F535F00027F64D /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		B54525B827F535F60027F64D /* Tweets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tweets;
+			sourceTree = "<group>";
+		};
+		B54525B927F535FB0027F64D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B54525BA27F535FF0027F64D /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Messages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
