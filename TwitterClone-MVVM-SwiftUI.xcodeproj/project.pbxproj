@@ -27,6 +27,7 @@
 		B5113F0727DAB6FA00E1B271 /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5113F0627DAB6FA00E1B271 /* KingfisherSwiftUI */; };
 		B5113F0927DAB6FA00E1B271 /* KingfisherSwiftUIDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = B5113F0827DAB6FA00E1B271 /* KingfisherSwiftUIDynamic */; };
 		B5113F0B27DAB6FA00E1B271 /* KingfisherSwiftUIStatic in Frameworks */ = {isa = PBXBuildFile; productRef = B5113F0A27DAB6FA00E1B271 /* KingfisherSwiftUIStatic */; };
+		B530D9E227F677DD00680FEC /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B530D9E127F677DD00680FEC /* AuthViewModel.swift */; };
 		B536098227E64986008A7050 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = B536098127E64986008A7050 /* Notification.swift */; };
 		B536098527E7A24B008A7050 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B536098427E7A24B008A7050 /* Constants.swift */; };
 		B536098727E930AA008A7050 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B536098627E930AA008A7050 /* UserService.swift */; };
@@ -45,6 +46,7 @@
 		B5113EE627DAB50B00E1B271 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5113EE827DAB50C00E1B271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5113EEB27DAB50C00E1B271 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B530D9E127F677DD00680FEC /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		B536098127E64986008A7050 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		B536098427E7A24B008A7050 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B536098627E930AA008A7050 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
@@ -131,6 +133,8 @@
 		B5113F0F27DAB87200E1B271 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B54525B227F535CC0027F64D /* SideMenu */,
+				B54525B327F535DC0027F64D /* Notifications */,
 				B54525BA27F535FF0027F64D /* Messages */,
 				B54525B927F535FB0027F64D /* Profile */,
 				B54525B827F535F60027F64D /* Tweets */,
@@ -138,8 +142,6 @@
 				B54525B627F535EA0027F64D /* Search */,
 				B54525B527F535E60027F64D /* Feed */,
 				B54525B427F535E30027F64D /* Main */,
-				B54525B327F535DC0027F64D /* Notifications */,
-				B54525B227F535CC0027F64D /* SideMenu */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -147,6 +149,7 @@
 		B5113F1027DAB87600E1B271 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B530D9E127F677DD00680FEC /* AuthViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -178,6 +181,9 @@
 		B54525B227F535CC0027F64D /* SideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				B54525BF27F536890027F64D /* SideMenuView.swift */,
+				B54525BD27F5365D0027F64D /* SideMenuOptionView.swift */,
+				B54525BB27F5362C0027F64D /* SideMenuHeaderView.swift */,
 			);
 			path = SideMenu;
 			sourceTree = "<group>";
@@ -234,9 +240,6 @@
 		B54525BA27F535FF0027F64D /* Messages */ = {
 			isa = PBXGroup;
 			children = (
-				B54525BB27F5362C0027F64D /* SideMenuHeaderView.swift */,
-				B54525BD27F5365D0027F64D /* SideMenuOptionView.swift */,
-				B54525BF27F536890027F64D /* SideMenuView.swift */,
 			);
 			path = Messages;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				B504105C27E55B880034AF5F /* Message.swift in Sources */,
 				B536098727E930AA008A7050 /* UserService.swift in Sources */,
 				B536098527E7A24B008A7050 /* Constants.swift in Sources */,
+				B530D9E227F677DD00680FEC /* AuthViewModel.swift in Sources */,
 				B54525BC27F5362C0027F64D /* SideMenuHeaderView.swift in Sources */,
 				B5113EE727DAB50B00E1B271 /* ContentView.swift in Sources */,
 				B5113EE527DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift in Sources */,
