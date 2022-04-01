@@ -51,3 +51,18 @@ class NotificationViewModel: ObservableObject {
                 })
             }
     }
+    
+    func fetchNotifications() {
+        guard let uid = Auth.auth().currentUser?.uid else { return }
+        
+        let query = COLLECTION_NOTIFICATIONS.document(uid).collection("user-notifications")
+            .order(by: "timestamp", descending: true)
+        
+        query.getDocuments { snapshot, _ in
+            guard let documents = snapshot?.documents else { return }
+            self.notifications = documents.map({ Notification(dictionary: $0.data()) })
+            
+            self.fetchNotificationTweets()
+            self.checkIfUserIsFollowed()
+        }
+    }
