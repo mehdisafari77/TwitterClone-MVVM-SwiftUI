@@ -5,6 +5,7 @@
 //  Created by Mehdi MMS on 31/03/2022.
 //
 
+import SwiftUI
 import Firebase
 
 class NotificationViewModel: ObservableObject {
@@ -79,3 +80,21 @@ class NotificationViewModel: ObservableObject {
             }
         }
     }
+    
+    private func fetchNotificationTweets() {
+        let tweetNotifications = self.notifications.filter({ $0.tweetId != nil })
+        
+        tweetNotifications.forEach { notification in
+            guard let tweetID = notification.tweetId else { return }
+            
+            COLLECTION_TWEETS.document(tweetID).getDocument { snapshot, _ in
+                guard let data = snapshot?.data() else { return }
+                let tweet = Tweet(dictionary: data)
+                                
+                if let index = self.notifications.firstIndex(where: { $0.id == notification.id }) {
+                    self.notifications[index].tweet = tweet
+                }
+            }
+        }
+    }
+}
