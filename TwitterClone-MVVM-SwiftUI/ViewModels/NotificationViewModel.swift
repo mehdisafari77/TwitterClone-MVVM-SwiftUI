@@ -34,3 +34,20 @@ class NotificationViewModel: ObservableObject {
         docRef.setData(data)
     }
     
+    static func deleteNotification(toUid uid: String, type: NotificationType, tweetId: String? = nil) {
+        guard let currentUid = Auth.auth().currentUser?.uid else { return }
+        
+        COLLECTION_NOTIFICATIONS.document(uid).collection("user-notifications")
+            .whereField("uid", isEqualTo: currentUid).getDocuments { snapshot, _ in
+                snapshot?.documents.forEach({ document in
+                    let notification = Notification(dictionary: document.data())
+                    guard notification.type == type else { return }
+                    
+                    if tweetId != nil {
+                        guard tweetId == notification.tweetId else { return }
+                    }
+                    
+                    document.reference.delete()
+                })
+            }
+    }
