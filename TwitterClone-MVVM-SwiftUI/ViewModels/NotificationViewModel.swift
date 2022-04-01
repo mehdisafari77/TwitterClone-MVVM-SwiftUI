@@ -66,3 +66,16 @@ class NotificationViewModel: ObservableObject {
             self.checkIfUserIsFollowed()
         }
     }
+    
+    func checkIfUserIsFollowed() {
+        let followNotifications = notifications.filter({ $0.type == .follow })
+        
+        followNotifications.forEach { notification in
+            UserService.checkIfUserIsFollowed(uid: notification.uid) { isFollowed in
+                
+                if let index = self.notifications.firstIndex(where: { $0.id == notification.id }) {
+                    self.notifications[index].userIsFollowed = isFollowed
+                }
+            }
+        }
+    }
