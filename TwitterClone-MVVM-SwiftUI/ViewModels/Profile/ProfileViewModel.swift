@@ -109,3 +109,11 @@ extension ProfileViewModel {
                 self.replies = documents.map({ Tweet(dictionary: $0.data()) })
             }
     }
+    
+    func fetchUserStats() {
+        UserService.fetchUserStats(user: self.user) { stats in
+            self.user.stats = stats
+        }
+    }
+}
+
