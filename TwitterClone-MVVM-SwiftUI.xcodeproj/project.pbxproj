@@ -157,9 +157,9 @@
 		B5113F1027DAB87600E1B271 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				B530D9ED27F679E100680FEC /* Tweets */,
-				B530D9EC27F679DC00680FEC /* Messages */,
 				B530D9EB27F679D900680FEC /* Profile */,
+				B530D9EC27F679DC00680FEC /* Messages */,
+				B530D9ED27F679E100680FEC /* Tweets */,
 				B530D9E127F677DD00680FEC /* AuthViewModel.swift */,
 				B530D9E327F6786800680FEC /* SideMenuViewModel.swift */,
 				B530D9E527F6789500680FEC /* SearchViewModel.swift */,
