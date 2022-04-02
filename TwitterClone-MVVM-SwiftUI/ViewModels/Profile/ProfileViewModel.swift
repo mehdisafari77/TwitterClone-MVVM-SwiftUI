@@ -81,3 +81,31 @@ extension ProfileViewModel {
             self.userTweets = documents.map({ Tweet(dictionary: $0.data()) })
         }
     }
+
+    func fetchLikedTweets() {
+        var tweets = [Tweet]()
+        
+        COLLECTION_USERS.document(user.id).collection("user-likes").getDocuments { snapshot, _ in
+            guard let documents = snapshot?.documents else { return }
+            let tweetIDs = documents.map({ $0.documentID })
+            
+            tweetIDs.forEach { id in
+                COLLECTION_TWEETS.document(id).getDocument { snapshot, _ in
+                    guard let data = snapshot?.data() else { return }
+                    let tweet = Tweet(dictionary: data)
+                    tweets.append(tweet)
+                    guard tweets.count == tweetIDs.count else { return }
+                    
+                    self.likedTweets = tweets
+                }
+            }
+        }
+    }
+    
+    func fetchReplies() {
+        COLLECTION_USERS.document(user.id).collection("user-replies")
+            .order(by: "timestamp", descending: true).getDocuments { snapshot, _ in
+                guard let documents = snapshot?.documents else { return }
+                self.replies = documents.map({ Tweet(dictionary: $0.data()) })
+            }
+    }
