@@ -64,3 +64,20 @@ extension ProfileViewModel {
             }
         }
     }
+
+    func checkIfUserIsFollowed() {
+        guard let currentUid = Auth.auth().currentUser?.uid else { return }
+        let followingRef = COLLECTION_FOLLOWING.document(currentUid).collection("user-following")
+        
+        followingRef.document(user.id).getDocument { snapshot, _ in
+            guard let isFollowed = snapshot?.exists else { return }
+            self.user.isFollowed = isFollowed
+        }
+    }
+    
+    func fetchUserTweets() {
+        COLLECTION_TWEETS.whereField("uid", isEqualTo: user.id).getDocuments { snapshot, _ in
+            guard let documents = snapshot?.documents else { return }
+            self.userTweets = documents.map({ Tweet(dictionary: $0.data()) })
+        }
+    }
