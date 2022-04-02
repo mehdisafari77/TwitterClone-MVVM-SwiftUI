@@ -31,3 +31,36 @@ class ProfileViewModel: ObservableObject {
         }
     }
 }
+
+// MARK: - API
+
+extension ProfileViewModel {
+    func follow() {
+        guard let currentUid = Auth.auth().currentUser?.uid else { return }
+        let followingRef = COLLECTION_FOLLOWING.document(currentUid).collection("user-following")
+        let followersRef = COLLECTION_FOLLOWERS.document(user.id).collection("user-followers")
+        
+        followingRef.document(user.id).setData([:]) { _ in
+            followersRef.document(currentUid).setData([:]) { _ in
+                self.user.isFollowed = true
+                self.user.stats.followers += 1
+                
+                NotificationViewModel.uploadNotification(toUid: self.user.id, type: .follow)
+            }
+        }
+    }
+    
+    func unfollow() {
+        guard let currentUid = Auth.auth().currentUser?.uid else { return }
+        let followingRef = COLLECTION_FOLLOWING.document(currentUid).collection("user-following")
+        let followersRef = COLLECTION_FOLLOWERS.document(user.id).collection("user-followers")
+        
+        followingRef.document(user.id).delete { _ in
+            followersRef.document(currentUid).delete { _ in
+                self.user.isFollowed = false
+                self.user.stats.followers -= 1
+                
+                NotificationViewModel.deleteNotification(toUid: self.user.id, type: .follow)
+            }
+        }
+    }
