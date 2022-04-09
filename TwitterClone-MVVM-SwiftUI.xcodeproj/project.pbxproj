@@ -128,6 +128,11 @@
 				B5113F0E27DAB86B00E1B271 /* Model */,
 				B5113F0F27DAB87200E1B271 /* View */,
 				B5113F1027DAB87600E1B271 /* ViewModels */,
+				B530D9E127F677DD00680FEC /* AuthViewModel.swift */,
+				B530D9E927F6793100680FEC /* NotificationViewModel.swift */,
+				B530D9E327F6786800680FEC /* SideMenuViewModel.swift */,
+				B530D9E527F6789500680FEC /* SearchViewModel.swift */,
+				B530D9E727F678FE00680FEC /* FeedViewModel.swift */,
 				B5113F1127DAB87D00E1B271 /* Utils */,
 				B5113F1227DAB88200E1B271 /* API */,
 				B5113EE427DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift */,
@@ -222,11 +227,6 @@
 		B530D9ED27F679E100680FEC /* Tweets */ = {
 			isa = PBXGroup;
 			children = (
-				B530D9E127F677DD00680FEC /* AuthViewModel.swift */,
-				B530D9E327F6786800680FEC /* SideMenuViewModel.swift */,
-				B530D9E527F6789500680FEC /* SearchViewModel.swift */,
-				B530D9E727F678FE00680FEC /* FeedViewModel.swift */,
-				B530D9E927F6793100680FEC /* NotificationViewModel.swift */,
 				B5FF17DE2801C76C00DE431F /* TweetActionViewModel.swift */,
 			);
 			path = Tweets;
