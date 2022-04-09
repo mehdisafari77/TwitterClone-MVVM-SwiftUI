@@ -46,6 +46,7 @@
 		B54525BE27F5365D0027F64D /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54525BD27F5365D0027F64D /* SideMenuOptionView.swift */; };
 		B54525C027F536890027F64D /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54525BF27F536890027F64D /* SideMenuView.swift */; };
 		B5FF17DB2801C5B100DE431F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17DA2801C5B100DE431F /* ImagePicker.swift */; };
+		B5FF17DD2801C6FA00DE431F /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17DC2801C6FA00DE431F /* LazyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		B54525BD27F5365D0027F64D /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
 		B54525BF27F536890027F64D /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		B5FF17DA2801C5B100DE431F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		B5FF17DC2801C6FA00DE431F /* LazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +236,7 @@
 				B530D9F827FB6D0F00680FEC /* CustomTextField.swift */,
 				B530D9FA27FBF25800680FEC /* CustomSecureField.swift */,
 				B5FF17DA2801C5B100DE431F /* ImagePicker.swift */,
+				B5FF17DC2801C6FA00DE431F /* LazyView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -416,6 +419,7 @@
 				B530D9F327F970EE00680FEC /* ConversationViewModel.swift in Sources */,
 				B5FF17DB2801C5B100DE431F /* ImagePicker.swift in Sources */,
 				B530D9F527F9711F00680FEC /* ChatViewModel.swift in Sources */,
+				B5FF17DD2801C6FA00DE431F /* LazyView.swift in Sources */,
 				B5113EE527DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
