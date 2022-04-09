@@ -48,6 +48,7 @@
 		B5FF17DB2801C5B100DE431F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17DA2801C5B100DE431F /* ImagePicker.swift */; };
 		B5FF17DD2801C6FA00DE431F /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17DC2801C6FA00DE431F /* LazyView.swift */; };
 		B5FF17DF2801C76C00DE431F /* TweetActionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17DE2801C76C00DE431F /* TweetActionViewModel.swift */; };
+		B5FF17E12801C7B400DE431F /* UploadTweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17E02801C7B400DE431F /* UploadTweetViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		B5FF17DA2801C5B100DE431F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		B5FF17DC2801C6FA00DE431F /* LazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
 		B5FF17DE2801C76C00DE431F /* TweetActionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetActionViewModel.swift; sourceTree = "<group>"; };
+		B5FF17E02801C7B400DE431F /* UploadTweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTweetViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				B5FF17DE2801C76C00DE431F /* TweetActionViewModel.swift */,
+				B5FF17E02801C7B400DE431F /* UploadTweetViewModel.swift */,
 			);
 			path = Tweets;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 				B530D9F527F9711F00680FEC /* ChatViewModel.swift in Sources */,
 				B5FF17DD2801C6FA00DE431F /* LazyView.swift in Sources */,
 				B5113EE527DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift in Sources */,
+				B5FF17E12801C7B400DE431F /* UploadTweetViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
