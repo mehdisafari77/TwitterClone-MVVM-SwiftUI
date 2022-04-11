@@ -49,6 +49,7 @@
 		B5FF17DD2801C6FA00DE431F /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17DC2801C6FA00DE431F /* LazyView.swift */; };
 		B5FF17DF2801C76C00DE431F /* TweetActionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17DE2801C76C00DE431F /* TweetActionViewModel.swift */; };
 		B5FF17E12801C7B400DE431F /* UploadTweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17E02801C7B400DE431F /* UploadTweetViewModel.swift */; };
+		B5FF17E32803CDBE00DE431F /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17E22803CDBE00DE431F /* NotificationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +84,7 @@
 		B5FF17DC2801C6FA00DE431F /* LazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
 		B5FF17DE2801C76C00DE431F /* TweetActionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetActionViewModel.swift; sourceTree = "<group>"; };
 		B5FF17E02801C7B400DE431F /* UploadTweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTweetViewModel.swift; sourceTree = "<group>"; };
+		B5FF17E22803CDBE00DE431F /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +262,7 @@
 		B54525B327F535DC0027F64D /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				B5FF17E22803CDBE00DE431F /* NotificationsView.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 				B5FF17DD2801C6FA00DE431F /* LazyView.swift in Sources */,
 				B5113EE527DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift in Sources */,
 				B5FF17E12801C7B400DE431F /* UploadTweetViewModel.swift in Sources */,
+				B5FF17E32803CDBE00DE431F /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
