@@ -51,6 +51,7 @@
 		B5FF17E12801C7B400DE431F /* UploadTweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17E02801C7B400DE431F /* UploadTweetViewModel.swift */; };
 		B5FF17E32803CDBE00DE431F /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17E22803CDBE00DE431F /* NotificationsView.swift */; };
 		B5FF17E52803CDED00DE431F /* NotificationsTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17E42803CDED00DE431F /* NotificationsTweetView.swift */; };
+		B5FF17E72803CE2B00DE431F /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17E62803CE2B00DE431F /* NotificationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		B5FF17E02801C7B400DE431F /* UploadTweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTweetViewModel.swift; sourceTree = "<group>"; };
 		B5FF17E22803CDBE00DE431F /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		B5FF17E42803CDED00DE431F /* NotificationsTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsTweetView.swift; sourceTree = "<group>"; };
+		B5FF17E62803CE2B00DE431F /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +268,7 @@
 			children = (
 				B5FF17E22803CDBE00DE431F /* NotificationsView.swift */,
 				B5FF17E42803CDED00DE431F /* NotificationsTweetView.swift */,
+				B5FF17E62803CE2B00DE431F /* NotificationCell.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -436,6 +439,7 @@
 				B5FF17DD2801C6FA00DE431F /* LazyView.swift in Sources */,
 				B5113EE527DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift in Sources */,
 				B5FF17E12801C7B400DE431F /* UploadTweetViewModel.swift in Sources */,
+				B5FF17E72803CE2B00DE431F /* NotificationCell.swift in Sources */,
 				B5FF17E32803CDBE00DE431F /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
