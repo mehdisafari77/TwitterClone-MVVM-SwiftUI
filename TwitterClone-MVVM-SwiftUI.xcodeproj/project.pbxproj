@@ -50,6 +50,7 @@
 		B5FF17DF2801C76C00DE431F /* TweetActionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17DE2801C76C00DE431F /* TweetActionViewModel.swift */; };
 		B5FF17E12801C7B400DE431F /* UploadTweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17E02801C7B400DE431F /* UploadTweetViewModel.swift */; };
 		B5FF17E32803CDBE00DE431F /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17E22803CDBE00DE431F /* NotificationsView.swift */; };
+		B5FF17E52803CDED00DE431F /* NotificationsTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17E42803CDED00DE431F /* NotificationsTweetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,7 @@
 		B5FF17DE2801C76C00DE431F /* TweetActionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetActionViewModel.swift; sourceTree = "<group>"; };
 		B5FF17E02801C7B400DE431F /* UploadTweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTweetViewModel.swift; sourceTree = "<group>"; };
 		B5FF17E22803CDBE00DE431F /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		B5FF17E42803CDED00DE431F /* NotificationsTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsTweetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +265,7 @@
 			isa = PBXGroup;
 			children = (
 				B5FF17E22803CDBE00DE431F /* NotificationsView.swift */,
+				B5FF17E42803CDED00DE431F /* NotificationsTweetView.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 				B530D9EF27F7EE5500680FEC /* ProfileViewModel.swift in Sources */,
 				B54525BC27F5362C0027F64D /* SideMenuHeaderView.swift in Sources */,
 				B5113EE727DAB50B00E1B271 /* ContentView.swift in Sources */,
+				B5FF17E52803CDED00DE431F /* NotificationsTweetView.swift in Sources */,
 				B530D9FB27FBF25800680FEC /* CustomSecureField.swift in Sources */,
 				B530D9F327F970EE00680FEC /* ConversationViewModel.swift in Sources */,
 				B5FF17DB2801C5B100DE431F /* ImagePicker.swift in Sources */,
