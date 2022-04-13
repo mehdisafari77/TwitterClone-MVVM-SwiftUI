@@ -139,7 +139,6 @@
 				B5113F1127DAB87D00E1B271 /* Utils */,
 				B5113F1227DAB88200E1B271 /* API */,
 				B5113EE427DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift */,
-				B5113EE627DAB50B00E1B271 /* ContentView.swift */,
 				B5113EE827DAB50C00E1B271 /* Assets.xcassets */,
 				B504105D27E55B9F0034AF5F /* GoogleService-Info.plist */,
 				B5113EEA27DAB50C00E1B271 /* Preview Content */,
@@ -276,6 +275,7 @@
 		B54525B427F535E30027F64D /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				B5113EE627DAB50B00E1B271 /* ContentView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
