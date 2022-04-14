@@ -13,6 +13,7 @@ struct MainTabView: View {
     
     var body: some View {
         TabView(selection: $selectedIndex) {
+            // Feedview start
             FeedView(viewModel: viewModel)
                 .onTapGesture {
                     selectedIndex = 0
