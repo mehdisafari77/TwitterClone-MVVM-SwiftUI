@@ -49,6 +49,7 @@
 		B5765780282732EA0005D14C /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B576577F282732EA0005D14C /* UserCell.swift */; };
 		B5765782282733150005D14C /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5765781282733150005D14C /* SearchBar.swift */; };
 		B5765784282733380005D14C /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5765783282733380005D14C /* SearchView.swift */; };
+		B5765786282733500005D14C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5765785282733500005D14C /* LoginView.swift */; };
 		B5A5418428066A2E003378F0 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5418328066A2E003378F0 /* MainTabView.swift */; };
 		B5FF17DB2801C5B100DE431F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17DA2801C5B100DE431F /* ImagePicker.swift */; };
 		B5FF17DD2801C6FA00DE431F /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17DC2801C6FA00DE431F /* LazyView.swift */; };
@@ -91,6 +92,7 @@
 		B576577F282732EA0005D14C /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		B5765781282733150005D14C /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		B5765783282733380005D14C /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		B5765785282733500005D14C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B5A5418328066A2E003378F0 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		B5FF17DA2801C5B100DE431F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		B5FF17DC2801C6FA00DE431F /* LazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
@@ -312,6 +314,7 @@
 		B54525B727F535F00027F64D /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				B5765785282733500005D14C /* LoginView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -456,6 +459,7 @@
 				B576577E282732BA0005D14C /* FeedView.swift in Sources */,
 				B5FF17DB2801C5B100DE431F /* ImagePicker.swift in Sources */,
 				B530D9F527F9711F00680FEC /* ChatViewModel.swift in Sources */,
+				B5765786282733500005D14C /* LoginView.swift in Sources */,
 				B5FF17DD2801C6FA00DE431F /* LazyView.swift in Sources */,
 				B5113EE527DAB50B00E1B271 /* TwitterClone_MVVM_SwiftUIApp.swift in Sources */,
 				B5FF17E12801C7B400DE431F /* UploadTweetViewModel.swift in Sources */,
