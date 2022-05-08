@@ -56,6 +56,7 @@
 		B576578E282733D50005D14C /* TweetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B576578D282733D50005D14C /* TweetDetailView.swift */; };
 		B5765790282733F00005D14C /* TweetActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B576578F282733F00005D14C /* TweetActionsView.swift */; };
 		B5765792282734060005D14C /* ReplyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5765791282734060005D14C /* ReplyCell.swift */; };
+		B5765795282748DD0005D14C /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5765794282748DD0005D14C /* EditProfileView.swift */; };
 		B5A5418428066A2E003378F0 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5418328066A2E003378F0 /* MainTabView.swift */; };
 		B5FF17DB2801C5B100DE431F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17DA2801C5B100DE431F /* ImagePicker.swift */; };
 		B5FF17DD2801C6FA00DE431F /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17DC2801C6FA00DE431F /* LazyView.swift */; };
@@ -105,6 +106,7 @@
 		B576578D282733D50005D14C /* TweetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetDetailView.swift; sourceTree = "<group>"; };
 		B576578F282733F00005D14C /* TweetActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetActionsView.swift; sourceTree = "<group>"; };
 		B5765791282734060005D14C /* ReplyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyCell.swift; sourceTree = "<group>"; };
+		B5765794282748DD0005D14C /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		B5A5418328066A2E003378F0 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		B5FF17DA2801C5B100DE431F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		B5FF17DC2801C6FA00DE431F /* LazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
@@ -347,7 +349,7 @@
 		B54525B927F535FB0027F64D /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				B5765793282748A40005D14C /* New Group */,
+				B5765793282748A40005D14C /* EditProfile */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -359,11 +361,12 @@
 			path = Messages;
 			sourceTree = "<group>";
 		};
-		B5765793282748A40005D14C /* New Group */ = {
+		B5765793282748A40005D14C /* EditProfile */ = {
 			isa = PBXGroup;
 			children = (
+				B5765794282748DD0005D14C /* EditProfileView.swift */,
 			);
-			path = "New Group";
+			path = EditProfile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -477,6 +480,7 @@
 				B5765782282733150005D14C /* SearchBar.swift in Sources */,
 				B576578A282733880005D14C /* TweetCell.swift in Sources */,
 				B5FF17DF2801C76C00DE431F /* TweetActionViewModel.swift in Sources */,
+				B5765795282748DD0005D14C /* EditProfileView.swift in Sources */,
 				B530D9E427F6786800680FEC /* SideMenuViewModel.swift in Sources */,
 				B530D9E227F677DD00680FEC /* AuthViewModel.swift in Sources */,
 				B530D9EF27F7EE5500680FEC /* ProfileViewModel.swift in Sources */,
