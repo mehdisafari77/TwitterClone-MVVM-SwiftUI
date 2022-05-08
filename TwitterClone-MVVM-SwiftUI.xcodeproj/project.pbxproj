@@ -347,6 +347,7 @@
 		B54525B927F535FB0027F64D /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				B5765793282748A40005D14C /* New Group */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -356,6 +357,13 @@
 			children = (
 			);
 			path = Messages;
+			sourceTree = "<group>";
+		};
+		B5765793282748A40005D14C /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
