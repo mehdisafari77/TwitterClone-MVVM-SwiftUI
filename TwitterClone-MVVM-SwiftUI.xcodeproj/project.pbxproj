@@ -66,6 +66,9 @@
 		B5BFEB78286CEB2F003D83B4 /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BFEB77286CEB2F003D83B4 /* ConversationCell.swift */; };
 		B5BFEB7A286CEB5B003D83B4 /* MessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BFEB79286CEB5B003D83B4 /* MessageInputView.swift */; };
 		B5BFEB7C286CEB61003D83B4 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BFEB7B286CEB61003D83B4 /* ChatView.swift */; };
+		B5BFEB7E286CEB7C003D83B4 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BFEB7D286CEB7C003D83B4 /* ChatBubble.swift */; };
+		B5BFEB80286CEB82003D83B4 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BFEB7F286CEB82003D83B4 /* MessageView.swift */; };
+		B5BFEB82286CEB88003D83B4 /* NewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BFEB81286CEB88003D83B4 /* NewMessageView.swift */; };
 		B5FF17DB2801C5B100DE431F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17DA2801C5B100DE431F /* ImagePicker.swift */; };
 		B5FF17DD2801C6FA00DE431F /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17DC2801C6FA00DE431F /* LazyView.swift */; };
 		B5FF17DF2801C76C00DE431F /* TweetActionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF17DE2801C76C00DE431F /* TweetActionViewModel.swift */; };
@@ -124,6 +127,9 @@
 		B5BFEB77286CEB2F003D83B4 /* ConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
 		B5BFEB79286CEB5B003D83B4 /* MessageInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInputView.swift; sourceTree = "<group>"; };
 		B5BFEB7B286CEB61003D83B4 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		B5BFEB7D286CEB7C003D83B4 /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		B5BFEB7F286CEB82003D83B4 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		B5BFEB81286CEB88003D83B4 /* NewMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageView.swift; sourceTree = "<group>"; };
 		B5FF17DA2801C5B100DE431F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		B5FF17DC2801C6FA00DE431F /* LazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
 		B5FF17DE2801C76C00DE431F /* TweetActionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetActionViewModel.swift; sourceTree = "<group>"; };
@@ -381,6 +387,9 @@
 				B5BFEB77286CEB2F003D83B4 /* ConversationCell.swift */,
 				B5BFEB79286CEB5B003D83B4 /* MessageInputView.swift */,
 				B5BFEB7B286CEB61003D83B4 /* ChatView.swift */,
+				B5BFEB7D286CEB7C003D83B4 /* ChatBubble.swift */,
+				B5BFEB7F286CEB82003D83B4 /* MessageView.swift */,
+				B5BFEB81286CEB88003D83B4 /* NewMessageView.swift */,
 			);
 			path = Messages;
 			sourceTree = "<group>";
@@ -494,6 +503,7 @@
 				B576578E282733D50005D14C /* TweetDetailView.swift in Sources */,
 				B530D9E827F678FE00680FEC /* FeedViewModel.swift in Sources */,
 				B5BFEB76286CEB25003D83B4 /* ConversationsView.swift in Sources */,
+				B5BFEB80286CEB82003D83B4 /* MessageView.swift in Sources */,
 				B530D9F127F7EEFD00680FEC /* EditProfileViewModel.swift in Sources */,
 				B5BFEB78286CEB2F003D83B4 /* ConversationCell.swift in Sources */,
 				B504105C27E55B880034AF5F /* Message.swift in Sources */,
@@ -508,7 +518,9 @@
 				B530D9E627F6789500680FEC /* SearchViewModel.swift in Sources */,
 				B5765782282733150005D14C /* SearchBar.swift in Sources */,
 				B576578A282733880005D14C /* TweetCell.swift in Sources */,
+				B5BFEB82286CEB88003D83B4 /* NewMessageView.swift in Sources */,
 				B5BFEB6F286CEA3C003D83B4 /* ProfileHeaderView.swift in Sources */,
+				B5BFEB7E286CEB7C003D83B4 /* ChatBubble.swift in Sources */,
 				B5FF17DF2801C76C00DE431F /* TweetActionViewModel.swift in Sources */,
 				B5765795282748DD0005D14C /* EditProfileView.swift in Sources */,
 				B530D9E427F6786800680FEC /* SideMenuViewModel.swift in Sources */,
