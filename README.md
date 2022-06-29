@@ -10,7 +10,7 @@ A fullstack Twitter clone with messaging, following, tweeting, commenting, authe
 * [Firebase](https://firebase.google.com/)
 
 ## Screen Recording of App
-https://user-images.githubusercontent.com/75599021/176543731-52373f27-d0d6-4907-a975-4cdb83762f21.mov
+https://user-images.githubusercontent.com/75599021/176543954-e11e1afd-6754-48cc-8fd6-bcc9888ee4ca.mov
 
 ## Installation Steps For Local Running
 1. Clone project.
